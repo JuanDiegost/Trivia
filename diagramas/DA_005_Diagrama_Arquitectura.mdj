@@ -8872,7 +8872,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": true,
-											"text": "PostgresDb",
+											"text": "OracleDB",
 											"horizontalAlignment": 2,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -10885,7 +10885,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "PostgresDb",
+					"name": "OracleDB",
 					"visibility": "public"
 				},
 				{

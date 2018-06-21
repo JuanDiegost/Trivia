@@ -1,0 +1,43 @@
+.background-login {
+  background-size: auto auto;
+  background-size: cover !important;
+}
+
+.top-signup{
+    margin: 20px;
+}
+
+.register-panel {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.singup-btn {
+    background: linear-gradient(#4fffa1, #4ff0ff);
+    padding: 1rem;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    animation-duration: 2s;
+    width: 50%;
+    margin-left:25%;
+    margin-right:25%
+
+  }
+  
+  .singup-btn:hover {
+    background: linear-gradient(to right, #e21649, #ffb600);
+  }
+
+  .register-text {
+    color: #39437a;
+    letter-spacing: 0.03rem;
+    margin-bottom: 6rem;
+    animation-duration: 2s;
+  }

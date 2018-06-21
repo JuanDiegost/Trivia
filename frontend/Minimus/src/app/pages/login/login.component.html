@@ -1,0 +1,27 @@
+<div class="main__container">
+  <div class="container">
+    <div class="row">
+      <div class="login-card col-xs-12 col-md-6 col-md-offset-3">
+        <main class="login-content">
+          <!-- login form -->
+          <div class="page-header">
+            <h1 class="login-welcome-text">Iniciar sesion</h1>
+          </div>
+          <div class="col-xs-12">
+            <form (submit)="login($event)" class="login-form">
+              <input id="email" ngModel type="email" autofocus placeholder="email" name="email" class="login-input">
+              <input id="password" ngModel type="password" placeholder="password" name="password" class="login-input">
+              <input type="submit" name="submit" placeholder="Ingresar" class="login-btn" value="Iniciar sesion">
+            </form>
+          </div>
+          <aside class="registro">
+            <span class="signup-notice">¿No tienes una cuenta? &nbsp; <a class="signup-link" href="/signup">Registrarse</a></span>
+          </aside>
+        </main>
+      </div>
+    </div>
+
+
+
+  </div>
+</div>

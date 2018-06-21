@@ -1,0 +1,15 @@
+.nav li {
+  font-size: 2.5rem;
+}
+
+.cards {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
